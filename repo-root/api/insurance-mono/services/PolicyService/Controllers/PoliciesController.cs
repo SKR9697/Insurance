@@ -34,7 +34,7 @@ namespace PolicyService.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreatePolicyDto dto)
         {
-            var userId = GetUserId();
+            var userId = GetUserId(); // get user details from token
             var id = await _repo.CreateAsync(new Policy(
               0, dto.PolicyNumber, dto.Title, dto.Status, dto.PremiumAmount,
               dto.StartDate, dto.EndDate, dto.PolicyConfigId, userId, dto.CreatedAt
