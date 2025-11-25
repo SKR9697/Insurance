@@ -53,6 +53,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'userservice-dev'
-          slot-name: 'Production'
-          package: .
+          slot-name: 'Development'
+          package: ${{env.DOTNET_ROOT}}/myapp
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7C892237B3584A268A89151C57A01469 }}
