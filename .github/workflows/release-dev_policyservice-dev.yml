@@ -24,8 +24,8 @@ jobs:
           dotnet-version: '8.x'
 
       - name: List repo files
-        run: ls -R ./api/insurance-mono/services
-        
+        run: ls -R
+
       - name: Build with dotnet
         run: dotnet build ./api/insurance-mono/services/PolicyService/PolicyService.csproj --configuration Release
 
