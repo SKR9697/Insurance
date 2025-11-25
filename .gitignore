@@ -3,7 +3,7 @@ bin/
 obj/
 out/
 
-# Visual Studio files
+# Visual Studio file's
 .vs/
 *.user
 *.suo
