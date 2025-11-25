@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30220861-5F40-492A-855D-1A74274DAD8C}|services\\PolicyService\\PolicyService.csproj|d:\\myrepo\\repo-root\\api\\insurance-mono\\services\\policyservice\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30220861-5F40-492A-855D-1A74274DAD8C}|services\\PolicyService\\PolicyService.csproj|solutionrelative:services\\policyservice\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30220861-5F40-492A-855D-1A74274DAD8C}|services\\PolicyService\\PolicyService.csproj|d:\\myrepo\\repo-root\\api\\insurance-mono\\services\\policyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30220861-5F40-492A-855D-1A74274DAD8C}|services\\PolicyService\\PolicyService.csproj|solutionrelative:services\\policyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F9D31B-DA54-49D9-9E03-E1056F59C1E0}|services\\UserService\\UserService.csproj|d:\\myrepo\\repo-root\\api\\insurance-mono\\services\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F9D31B-DA54-49D9-9E03-E1056F59C1E0}|services\\UserService\\UserService.csproj|solutionrelative:services\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoliciesController.cs",
+              "DocumentMoniker": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\PolicyService\\Controllers\\PoliciesController.cs",
+              "RelativeDocumentMoniker": "services\\PolicyService\\Controllers\\PoliciesController.cs",
+              "ToolTip": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\PolicyService\\Controllers\\PoliciesController.cs",
+              "RelativeToolTip": "services\\PolicyService\\Controllers\\PoliciesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:34:39.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "services\\UserService\\Program.cs",
+              "ToolTip": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\UserService\\Program.cs",
+              "RelativeToolTip": "services\\UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:36:35.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\PolicyService\\Program.cs",
+              "RelativeDocumentMoniker": "services\\PolicyService\\Program.cs",
+              "ToolTip": "D:\\MyRepo\\repo-root\\api\\insurance-mono\\services\\PolicyService\\Program.cs",
+              "RelativeToolTip": "services\\PolicyService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:32:47.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

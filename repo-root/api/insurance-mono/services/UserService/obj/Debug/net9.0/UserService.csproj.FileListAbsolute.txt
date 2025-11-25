@@ -1,0 +1,8 @@
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.csproj.AssemblyReference.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.AssemblyInfoInputs.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.AssemblyInfo.cs
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.csproj.CoreCompileInputs.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.MvcApplicationPartsAssemblyInfo.cs
+D:\MyRepo\repo-root\api\insurance-mono\services\UserService\obj\Debug\net9.0\UserService.MvcApplicationPartsAssemblyInfo.cache

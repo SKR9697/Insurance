@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "services\\UserService\\UserService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "services\\PolicyService\\PolicyService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

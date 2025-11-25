@@ -1,0 +1,12 @@
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\bin\Debug\net9.0\SharedInfrastructure.deps.json
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\bin\Debug\net9.0\SharedInfrastructure.dll
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\bin\Debug\net9.0\SharedInfrastructure.pdb
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.csproj.AssemblyReference.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.AssemblyInfoInputs.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.AssemblyInfo.cs
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.csproj.CoreCompileInputs.cache
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.dll
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\refint\SharedInfrastructure.dll
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\SharedInfrastructure.pdb
+D:\MyRepo\repo-root\api\insurance-mono\services\SharedInfrastructure\obj\Debug\net9.0\ref\SharedInfrastructure.dll
