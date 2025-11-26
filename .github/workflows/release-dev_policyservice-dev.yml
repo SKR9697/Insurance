@@ -49,10 +49,8 @@ jobs:
           name: .net-app
       
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'policyservice-dev'
-          slot-name: 'Development'
           package: ${{env.DOTNET_ROOT}}/myapp
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6235D4C5DE54495DBBF7E8658973DC47 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_POLICYSERVICE }}
