@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read # Required for actions/checkout
 
     steps:
       - uses: actions/checkout@v4
@@ -30,13 +30,13 @@ jobs:
         run: dotnet build ./repo-root/api/insurance-mono/services/PolicyService/PolicyService.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./repo-root/api/insurance-mono/services/PolicyService/PolicyService.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./repo-root/api/insurance-mono/services/PolicyService/PolicyService.csproj -c Release -o ./myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ./myapp
 
   deploy:
     runs-on: ubuntu-latest
@@ -47,10 +47,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
+          path: ./myapp   # restore artifact into ./myapp
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'policyservice-dev'
-          package: ${{env.DOTNET_ROOT}}/myapp
+          package: ./myapp
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_POLICYSERVICE }}
