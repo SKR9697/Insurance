@@ -33,9 +33,24 @@ namespace UserService.Controllers
             if (user is null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
                 return Unauthorized();
 
+            // Create JWT and get expiry
             var token = CreateJwt(user);
-            return Ok(new { token });
+            var expiresIn = 3600; // Example: 1 hour in seconds. Adjust based on your JWT config.
+
+            var response = new
+            {
+                token,
+                expiresIn,
+                user = new
+                {
+                    id = user.Id.ToString(),
+                    email = user.Email
+                }
+            };
+
+            return Ok(response);
         }
+
 
         [Authorize]
         [HttpGet("me")]
