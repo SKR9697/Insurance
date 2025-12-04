@@ -70,7 +70,7 @@ builder.Services.AddCors(opts =>
     opts.AddDefaultPolicy(p => p
         .AllowAnyHeader()
         .AllowAnyMethod()
-        .WithOrigins("http://localhost:44320")); // adjust to your frontend port
+        .WithOrigins("http://localhost:5173")); // adjust to your frontend port
 });
 
 var app = builder.Build();
